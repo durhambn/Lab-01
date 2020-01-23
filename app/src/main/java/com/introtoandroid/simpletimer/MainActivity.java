@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             timeElapsedView.setText("Time Elapsed: " + String.valueOf(timeElapsed));
         }
 
+        @Override
         public void onFinish(){
             text.setText("Time's up!");
             timeElapsedView.setText("Time Elapsed: " + String.valueOf(startTime));
